@@ -1,0 +1,44 @@
+{
+  "pages": [
+    {
+      "path": "pages/login/login",
+      "style": { "navigationBarTitleText": "配送员登录" }
+    },
+    {
+      "path": "pages/index/index",
+      "style": { "navigationBarTitleText": "待配送" }
+    },
+    {
+      "path": "pages/order-detail/order-detail",
+      "style": { "navigationBarTitleText": "订单详情" }
+    },
+    {
+      "path": "pages/complete/complete",
+      "style": { "navigationBarTitleText": "拍照签收" }
+    },
+    {
+      "path": "pages/records/records",
+      "style": { "navigationBarTitleText": "配送记录" }
+    },
+    {
+      "path": "pages/mine/mine",
+      "style": { "navigationBarTitleText": "我的" }
+    }
+  ],
+  "tabBar": {
+    "color": "#8d8271",
+    "selectedColor": "#1f5a46",
+    "backgroundColor": "#fbf7ef",
+    "list": [
+      { "pagePath": "pages/index/index", "text": "待配送", "iconPath": "static/tab/pending.png", "selectedIconPath": "static/tab/pending-active.png" },
+      { "pagePath": "pages/records/records", "text": "记录", "iconPath": "static/tab/record.png", "selectedIconPath": "static/tab/record-active.png" },
+      { "pagePath": "pages/mine/mine", "text": "我的", "iconPath": "static/tab/mine.png", "selectedIconPath": "static/tab/mine-active.png" }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "配送端",
+    "navigationBarBackgroundColor": "#fbf7ef",
+    "backgroundColor": "#f6f1e8"
+  }
+}

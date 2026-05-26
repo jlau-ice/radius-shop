@@ -1,0 +1,23 @@
+
+.records-page.data-v-cb371200 { min-height: 100vh; padding: 18px 14px 28px; background: #f6f1e8; box-sizing: border-box;
+}
+.page-title.data-v-cb371200 { color: #22352d; font-size: 25px; font-weight: 900; margin-bottom: 14px;
+}
+.order-card.data-v-cb371200 { background: #fffaf2; margin-bottom: 12px; padding: 14px; border-radius: 24px; border: 1px solid #eadbc4; box-shadow: 0 12px 24px rgba(83,59,33,.08);
+}
+.order-header.data-v-cb371200 { display: flex; justify-content: space-between; gap: 10px; font-size: 11px; color: #9a8d78;
+}
+.order-no.data-v-cb371200 { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.addr-row.data-v-cb371200 { color: #22352d; font-size: 15px; font-weight: 800; margin-top: 10px; line-height: 1.45;
+}
+.contact-row.data-v-cb371200 { color: #746856; font-size: 13px; margin-top: 6px;
+}
+.goods-summary.data-v-cb371200 { color: #9a8d78; font-size: 12px; margin-top: 8px;
+}
+.amount-row.data-v-cb371200 { text-align: right; color: #1f5a46; font-weight: 900; font-size: 16px; margin-top: 10px; padding-top: 10px; border-top: 1px solid #f0e5d3;
+}
+.empty.data-v-cb371200, .loading.data-v-cb371200 { text-align: center; padding-top: 90px; color: #9a8d78; font-size: 14px;
+}
+.loading.data-v-cb371200 { padding-top: 20px;
+}

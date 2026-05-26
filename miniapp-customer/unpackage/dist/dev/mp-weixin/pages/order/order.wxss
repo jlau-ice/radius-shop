@@ -1,0 +1,45 @@
+
+.order-page.data-v-93207a4f { min-height: 100vh; padding: 16px 0 24px; background: #f6f1e8;
+}
+.order-hero.data-v-93207a4f { margin: 0 14px 12px; padding: 20px 18px; border-radius: 28px; color: #fff2d8; background: radial-gradient(circle at 92% 8%, rgba(226,192,120,.36), transparent 36%), linear-gradient(135deg, #214f40, #17372e); box-shadow: 0 16px 30px rgba(31,90,70,.2);
+}
+.order-kicker.data-v-93207a4f { color: #e2c078; font-size: 10px; letter-spacing: 3px;
+}
+.order-title.data-v-93207a4f { margin-top: 6px; font-size: 25px; font-weight: 900;
+}
+.tabs.data-v-93207a4f { display: flex; margin: 0 14px 12px; padding: 6px; border-radius: 22px; background: #fffaf2; border: 1px solid #eadbc4; box-shadow: 0 10px 22px rgba(83,59,33,.08);
+}
+.tab.data-v-93207a4f { flex: 1; height: 36px; line-height: 36px; border-radius: 18px; text-align: center; font-size: 12px; color: #746856;
+}
+.tab.active.data-v-93207a4f { color: #fff2d8; background: #1f5a46; font-weight: 800; box-shadow: 0 8px 18px rgba(31,90,70,.2);
+}
+.order-item.data-v-93207a4f { background: #fffaf2; margin: 12px 14px; border-radius: 24px; overflow: hidden; border: 1px solid #eadbc4; box-shadow: 0 12px 24px rgba(83,59,33,.08);
+}
+.order-header.data-v-93207a4f { display: flex; justify-content: space-between; padding: 14px 14px 10px; border-bottom: 1px solid #f0e5d3;
+}
+.order-no.data-v-93207a4f { max-width: 230px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 12px; color: #8a7d69;
+}
+.order-status.data-v-93207a4f { font-size: 13px; font-weight: 900;
+}
+.order-goods.data-v-93207a4f { display: flex; padding: 10px 14px; align-items: center;
+}
+.goods-img.data-v-93207a4f { width: 54px; height: 54px; border-radius: 14px; background: #eee1cf;
+}
+.goods-info.data-v-93207a4f { flex: 1; min-width: 0; margin-left: 10px;
+}
+.goods-name.data-v-93207a4f { color: #22352d; font-size: 14px; font-weight: 800; display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.goods-price.data-v-93207a4f { color: #9a8d78; font-size: 12px; display: block; margin-top: 4px;
+}
+.order-footer.data-v-93207a4f { display: flex; justify-content: space-between; align-items: center; padding: 12px 14px; font-size: 13px; color: #746856; border-top: 1px solid #f0e5d3;
+}
+.total-price.data-v-93207a4f { color: #1f5a46; font-weight: 900; font-size: 17px;
+}
+.order-actions.data-v-93207a4f { display: flex; justify-content: flex-end; padding: 0 14px 14px; gap: 8px;
+}
+.btn-cancel.data-v-93207a4f { background: #fffaf2; color: #786b5a; border: 1px solid #d8c8ad; border-radius: 16px;
+}
+.btn-pay.data-v-93207a4f { background: #1f5a46; color: #fff2d8; border-radius: 16px;
+}
+.empty.data-v-93207a4f { text-align: center; padding-top: 92px; color: #9a8d78; font-size: 14px;
+}

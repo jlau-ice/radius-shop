@@ -1,0 +1,69 @@
+spring:
+  application:
+    name: radius-shop
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/radius_shop?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+  data:
+    redis:
+      host: localhost
+      port: 6379
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 50MB
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-field: deleted
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+sa-token:
+  token-name: token
+  timeout: 2592000
+  active-timeout: -1
+  is-concurrent: true
+  is-share: false
+  token-style: uuid
+  is-log: false
+
+app:
+  mock:
+    wx-login: true
+    wx-pay: true
+    delivery-login: true
+    admin-login: true
+
+# 微信小程序配置；申请下来后填真实值，并把 app.mock.wx-login 改成 false
+wx:
+  app-id: your-app-id
+  app-secret: your-app-secret
+  pay:
+    mch-id: your-mch-id
+    mch-serial-no: your-serial-no
+    api-v3-key: your-api-v3-key
+    private-key-path: /cert/apiclient_key.pem
+    notify-url: https://your-domain.com/api/app/pay/notify
+
+# Cloudflare R2；把 access-key 和 secret-key 补上即可上传
+storage:
+  r2:
+    endpoint: https://xxxx.r2.xx.com
+    bucket: xx
+    access-key: xxx
+    secret-key: xxxx
+    base-url: https://pub-xx.r2.dev
+
+server:
+  port: 8080
+

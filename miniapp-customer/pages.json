@@ -1,0 +1,77 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": { "navigationBarTitleText": "甜品小屋" }
+    },
+    {
+      "path": "pages/category/category",
+      "style": { "navigationBarTitleText": "分类" }
+    },
+    {
+      "path": "pages/product/product",
+      "style": { "navigationBarTitleText": "商品详情" }
+    },
+    {
+      "path": "pages/cart/cart",
+      "style": { "navigationBarTitleText": "购物车" }
+    },
+    {
+      "path": "pages/checkout/checkout",
+      "style": { "navigationBarTitleText": "确认订单" }
+    },
+    {
+      "path": "pages/address/address",
+      "style": { "navigationBarTitleText": "选择地址" }
+    },
+    {
+      "path": "pages/order/order",
+      "style": { "navigationBarTitleText": "我的订单" }
+    },
+    {
+      "path": "pages/order-detail/order-detail",
+      "style": { "navigationBarTitleText": "订单详情" }
+    },
+    {
+      "path": "pages/mine/mine",
+      "style": { "navigationBarTitleText": "我的" }
+    }
+  ],
+  "tabBar": {
+    "color": "#8d8271",
+    "selectedColor": "#1f5a46",
+    "backgroundColor": "#fbf7ef",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tab/home.png",
+        "selectedIconPath": "static/tab/home-active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "static/tab/cart.png",
+        "selectedIconPath": "static/tab/cart-active.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "static/tab/order.png",
+        "selectedIconPath": "static/tab/order-active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/tab/mine.png",
+        "selectedIconPath": "static/tab/mine-active.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "甜品小屋",
+    "navigationBarBackgroundColor": "#fbf7ef",
+    "backgroundColor": "#f6f1e8"
+  }
+}

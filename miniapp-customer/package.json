@@ -1,0 +1,8 @@
+{
+  "name": "radius-shop-customer",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "uview-plus": "^3.6.0"
+  }
+}

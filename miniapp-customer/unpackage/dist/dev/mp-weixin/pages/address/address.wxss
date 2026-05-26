@@ -1,0 +1,17 @@
+
+.address-page.data-v-40ca010a { min-height: 100vh; padding: 18px 14px 28px; background: #f6f1e8; box-sizing: border-box;
+}
+.page-title.data-v-40ca010a { color: #22352d; font-size: 24px; font-weight: 900; margin-bottom: 14px;
+}
+.addr-item.data-v-40ca010a { background: #fffaf2; padding: 16px; margin-bottom: 12px; border-radius: 24px; border: 1px solid #eadbc4; position: relative; box-shadow: 0 12px 24px rgba(83,59,33,.08);
+}
+.addr-name.data-v-40ca010a { color: #22352d; font-size: 16px; font-weight: 900; padding-right: 36px;
+}
+.addr-detail.data-v-40ca010a { color: #746856; font-size: 13px; margin-top: 7px; line-height: 1.6; padding-right: 36px;
+}
+.addr-contact.data-v-40ca010a { color: #9a8d78; font-size: 12px; margin-top: 6px;
+}
+.check.data-v-40ca010a { position: absolute; right: 18px; top: 50%; transform: translateY(-50%); width: 28px; height: 28px; line-height: 28px; border-radius: 14px; text-align: center; color: #fff2d8; background: #1f5a46; font-size: 16px;
+}
+.empty.data-v-40ca010a { text-align: center; padding-top: 90px; color: #9a8d78; font-size: 14px;
+}

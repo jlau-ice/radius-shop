@@ -1,0 +1,21 @@
+
+.login-page.data-v-e4e4508d { min-height: 100vh; padding: 44px 20px; background: radial-gradient(circle at 84% 8%, rgba(226,192,120,.32), transparent 30%), linear-gradient(180deg, #17372e 0%, #214f40 42%, #f6f1e8 42%); box-sizing: border-box;
+}
+.brand-card.data-v-e4e4508d { color: #fff2d8; padding: 22px 4px 34px;
+}
+.brand-kicker.data-v-e4e4508d { display: inline-block; padding: 4px 10px; border: 1px solid rgba(226,192,120,.55); border-radius: 999px; color: #e2c078; font-size: 10px; letter-spacing: 3px;
+}
+.brand-title.data-v-e4e4508d { margin-top: 18px; font-size: 30px; font-weight: 900;
+}
+.brand-subtitle.data-v-e4e4508d { margin-top: 8px; color: rgba(255,242,216,.72); font-size: 13px;
+}
+.login-card.data-v-e4e4508d { margin-top: 8px; padding: 24px 18px 22px; border-radius: 28px; background: #fffaf2; border: 1px solid #eadbc4; box-shadow: 0 20px 38px rgba(56,40,23,.16);
+}
+.form-title.data-v-e4e4508d { color: #22352d; font-size: 20px; font-weight: 900; margin-bottom: 18px;
+}
+.input.data-v-e4e4508d { height: 48px; padding: 0 16px; margin-bottom: 14px; border-radius: 18px; background: #f5ead8; color: #22352d; font-size: 14px; border: 1px solid #eadbc4;
+}
+.placeholder.data-v-e4e4508d { color: #9a8d78;
+}
+.btn.data-v-e4e4508d { margin-top: 8px; height: 48px; line-height: 48px; border-radius: 24px; color: #fff2d8; background: linear-gradient(135deg, #23634c, #153c31); font-size: 16px; box-shadow: 0 12px 22px rgba(31,90,70,.24);
+}
